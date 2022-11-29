@@ -2,12 +2,12 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import { Link } from 'react-router-dom'
 import {AiOutlineShoppingCart} from 'react-icons/ai'
-import Home from '../pages/Home';
+
 
 function Navigation() {
   return (
     <>
-    <Navbar collapseOnSelect expand="lg" bg="black" variant="dark" fixed="top">
+    <Navbar collapseOnSelect expand="lg" bg="black" variant="dark" sticky='top' >
       <div class = 'container-fluid'>
         <Navbar.Brand><Link class = 'text-decoration-none text-white' to = '/Home'><h3 className='font-bold hover:text-red-500'>SURGE</h3></Link></Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />

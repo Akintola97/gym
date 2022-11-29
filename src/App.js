@@ -18,7 +18,6 @@ function App() {
     <div className="App">
 <BrowserRouter>
       <Navigation />
-      
       <Routes>
         <Route path = '/Home' element={<Home/>}></Route>
         <Route path = '/Team' element={<Team/>}></Route>

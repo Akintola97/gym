@@ -13,7 +13,7 @@ function Navigation() {
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="ms-auto items-center p-0">
-            <Nav.Link><Link class = 'text-decoration-none text-white' to = '/Team'><h5 className='hover:text-red-500'>Team</h5></Link></Nav.Link>
+            {/* <Nav.Link><Link class = 'text-decoration-none text-white' to = '/Team'><h5 className='hover:text-red-500'>Team</h5></Link></Nav.Link> */}
             <Nav.Link><Link class = 'text-decoration-none text-white' to = '/Facility'><h5 className='hover:text-red-500'>Facility</h5></Link></Nav.Link>
             <Nav.Link><Link class = 'text-decoration-none text-white' to = '/Memberships'><h5 className='hover:text-red-500'>Memberships</h5></Link></Nav.Link>
             <Nav.Link><Link class = 'text-decoration-none text-white' to = '/Coaching'><h5 className='hover:text-red-500'>Coaching</h5></Link></Nav.Link>

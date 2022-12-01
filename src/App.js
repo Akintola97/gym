@@ -10,6 +10,7 @@ import Boxing from './pages/Boxing'
 import Cart from './pages/Cart'
 import Powerlifting from './pages/Powerlifting';
 import Strongman from './pages/Strongman';
+import Expectations from './pages/Expectations';
 
 
 
@@ -29,6 +30,8 @@ function App() {
         <Route path = '/Cart' element={<Cart/>}></Route>
         <Route path = '/powerlifting' element={<Powerlifting/>}></Route>
         <Route path = '/strongman' element={<Strongman/>}></Route>
+        <Route path = '/expectations' element={<Expectations/>}></Route>
+        
     </Routes>
 
       </BrowserRouter>

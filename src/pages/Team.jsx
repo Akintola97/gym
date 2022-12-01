@@ -17,7 +17,7 @@ const Team = () => {
     <>
 <Carousel fade>
       <Carousel.Item>
-        <div className='h-[140vh] md:h-[70vh] w-full bg-black'>
+        <div className='h-[155vh] md:h-[70vh] w-full bg-black'>
         <div className='flex items-center h-full w-full md:flex-row flex-col justify-center'>   
         <Card style={{border:'none', color:'white', background:'black', padding:'2rem'}}>
       <Card.Img style={{width:'20rem', height:'10rem'}} variant="top" src={owner} />
@@ -53,7 +53,7 @@ const Team = () => {
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
-      <div className='h-[140vh] md:h-[70vh] w-full bg-black'>
+      <div className='h-[155vh] md:h-[70vh] w-full bg-black'>
         <div className='flex items-center h-full w-full md:flex-row flex-col justify-center'>
         <Card style={{border:'none', color:'white', background:'black', padding:'2rem'}}>
       <Card.Img style={{width:'20rem', height:'10rem'}} variant="top" src={powerlifting_coach} />
@@ -89,7 +89,7 @@ const Team = () => {
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
-      <div className='h-[140vh] md:h-[70vh] w-full bg-black'>
+      <div className='h-[155vh] md:h-[70vh] w-full bg-black'>
         <div className='flex items-center h-full w-full md:flex-row flex-col justify-center'>
         <Card style={{border:'none', color:'white', background:'black', padding:'2rem'}}>
       <Card.Img style={{width:'20rem', height:'10rem'}} variant="top" src={youth_boxing} />

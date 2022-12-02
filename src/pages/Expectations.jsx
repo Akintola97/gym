@@ -29,7 +29,7 @@ const Expectations = () => {
     </div>
     <div className='h-full w-full bg-gray-200'>
         <h1 className='text-center font-bold p-5'>Powerlifting Etiquette</h1>
-        <img className='w-full h-full' src={powerlifting_etiqutte}/>
+        {/*   */}
         
     </div>
     </>

@@ -54,7 +54,7 @@ const Home = () => {
 </div>
 </div>
 
-<div className='h-[100] w-full bg-gray-200'>
+<div className='h-[100] w-full bg-white'>
   <div className='h-full w-full flex text-center items-center md:flex-row flex-col'>
   <Card style={{border:'none', padding:'3rem', background:'white' }}>
   <Link className='no-underline text-black hover:scale-110 ease-in-out duration-300' to = '/coaching'>

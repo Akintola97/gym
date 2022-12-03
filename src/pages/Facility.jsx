@@ -1,30 +1,30 @@
 import React from 'react'
-import squat_facility_female from '../Components/assets/squat-facility-female.jpeg'
-import loading_plates from '../Components/assets/loading-plates-facility.jpeg'
-import mono_squat from '../Components/assets/mono-squat-facility.jpeg'
-import coaching_facility from '../Components/assets/coaching-facility.jpeg'
-import back_squat from '../Components/assets/back-squat-facility.jpeg'
-import strongman_facility from '../Components/assets/strongman_facility.jpeg'
-import woman_deadlift from '../Components/assets/woman-deadlift.jpeg'
-import youth_boxer from '../Components/assets/youth-boxer.jpeg'
-import woman_deadlift_setup from '../Components/assets/woman-deadlift-setup.jpeg'
-import stone_pit from '../Components/assets/stone-pit-strongman.jpeg'
-import bench_arch from '../Components/assets/bench-arch.jpeg'
-import yoke_walk from '../Components/assets/yoke-walk-strongman.jpeg'
-import dumbbell_row from '../Components/assets/dumbbell-row.jpeg'
-import strongman_stone from '../Components/assets/strongman-stone.jpeg'
-import lbs_plates from '../Components/assets/lbs_plates.jpeg'
+// import squat_facility_female from '../Components/assets/squat-facility-female.jpeg'
+// import loading_plates from '../Components/assets/loading-plates-facility.jpeg'
+// import mono_squat from '../Components/assets/mono-squat-facility.jpeg'
+// import coaching_facility from '../Components/assets/coaching-facility.jpeg'
+// import back_squat from '../Components/assets/back-squat-facility.jpeg'
+// import strongman_facility from '../Components/assets/strongman_facility.jpeg'
+// import woman_deadlift from '../Components/assets/woman-deadlift.jpeg'
+// import youth_boxer from '../Components/assets/youth-boxer.jpeg'
+// import woman_deadlift_setup from '../Components/assets/woman-deadlift-setup.jpeg'
+// import stone_pit from '../Components/assets/stone-pit-strongman.jpeg'
+// import bench_arch from '../Components/assets/bench-arch.jpeg'
+// import yoke_walk from '../Components/assets/yoke-walk-strongman.jpeg'
+// import dumbbell_row from '../Components/assets/dumbbell-row.jpeg'
+// import strongman_stone from '../Components/assets/strongman-stone.jpeg'
+// import lbs_plates from '../Components/assets/lbs_plates.jpeg'
 
+import Gallery from '../Components/Gallery'
 
-
-const Facility = () => {
+const Facility = ({img, id}) => {
   return (
     <>
     <div className='text-black w-full h-full bg-gray-200'>
       <h1 className='uppercase text-center font-bold text-[6vmin] md:text-[5vmin] pt-4'>Surge to new levels Facility</h1>
       <p className='text-center text-[3.4vmin] md:text-[2.2vmin] p-3'>With over 12,000 square feet; Surge to New Levels boasts one of the largest spaces for powerlifting, strongman, and boxing in the entire Chicagoland area! Outfitted with all competition grade equipment, you will find absolutely everything you need for your sport at our gym! Best of all we have one of the largest and friendliest communities around! </p>
       <div className='text-center w-full h-full bg-gray-200 flex flex-wrap justify-center items-center'>
-       <img className='w-[32vw] p-2' src={squat_facility_female} />
+       {/* <img className='w-[32vw] p-2' src={squat_facility_female} />
        <img className='w-[32vw] p-2' src={loading_plates} /> 
        <img className='w-[32vw] p-2' src={mono_squat} />
        <img className='w-[32vw] p-2' src={coaching_facility} />
@@ -38,7 +38,9 @@ const Facility = () => {
        <img className='w-[32vw] p-2' src={yoke_walk} />
        <img className='w-[32vw] p-2' src={dumbbell_row} />
        <img className='w-[32vw] p-2' src={strongman_stone} />
-       <img className='w-[32vw] p-2' src={lbs_plates} />
+       <img className='w-[32vw] p-2' src={lbs_plates} /> */}
+    <Gallery img = {img} id={id} />
+
       </div>
 </div>
       <div className='w-full h-full bg-gray-200'>

@@ -14,73 +14,69 @@ import yoke_walk from '../Components/assets/yoke-walk-strongman.jpeg'
 import dumbbell_row from '../Components/assets/dumbbell-row.jpeg'
 import strongman_stone from '../Components/assets/strongman-stone.jpeg'
 import lbs_plates from '../Components/assets/lbs_plates.jpeg'
-import Facility from '../pages/Facility'
 
 const Gallery = () => {
+
     const data = [
         {
             id:1,
-            imgSrc: {squat_facility_female},
+            imgSrc: squat_facility_female,
         },
         {
             id:2,
-            imgSrc: {loading_plates},
+            imgSrc: loading_plates,
         },
         {
             id:3,
-            imgSrc: {mono_squat},
+            imgSrc: mono_squat,
         },
         {
             id:4,
-            imgSrc: {coaching_facility},
+            imgSrc: coaching_facility,
         },
         {
             id:5,
-            imgSrc: {back_squat},
+            imgSrc: back_squat,
         },
         {
             id:6,
-            imgSrc: {strongman_facility},
+            imgSrc: strongman_facility,
         },
         {
             id:7,
-            imgSrc: {woman_deadlift},
+            imgSrc: woman_deadlift,
         },
         {
             id:8,
-            imgSrc: {youth_boxer},
+            imgSrc: youth_boxer,
         },
         {
             id:9,
-            imgSrc: {woman_deadlift_setup},
+            imgSrc: woman_deadlift_setup,
         },
         {
             id:10,
-            imgSrc: {stone_pit},
+            imgSrc: stone_pit,
         },
         {
             id:11,
-            imgSrc: {bench_arch},
+            imgSrc: bench_arch,
         },
         {
             id:12,
-            imgSrc: {squat_facility_female},
+            imgSrc: yoke_walk,
         },
         {
             id:13,
-            imgSrc: {yoke_walk},
+            imgSrc: dumbbell_row,
         },
         {
             id:14,
-            imgSrc: {dumbbell_row},
+            imgSrc: strongman_stone,
         },
         {
             id:15,
-            imgSrc: {strongman_stone},
-        },
-        {
-            id:16,
-            imgSrc: {lbs_plates},
+            imgSrc: lbs_plates,
         }
     ]
 
@@ -88,16 +84,22 @@ const Gallery = () => {
 
   return (
     <>
-    <div>
+  
+    <div className='w-full h-full flex flex-wrap justify-center'>
     {data.map((item, index)=>{
         return (
+            <>
+    
+            <div className=''>
             <div key={index}>
-                <img src = {item.imgSrc} />
+             <img className='w-[32vw] p-2'src={item.imgSrc} alt='facility_images'/>
             </div>
+            </div>
+            </>
         )
     })}
     </div>
-    <Facility img={data.item} id = {data.id}/>
+   
     </>
   )
 }

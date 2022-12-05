@@ -1,6 +1,6 @@
 import React from 'react'
 import helping_hand from '../Components/assets/helping-hand.jpeg'
-import powerlifting_etiqutte from '../Components/assets/powerlifting-etiquette.jpeg'
+
 
 const Expectations = () => {
   return (

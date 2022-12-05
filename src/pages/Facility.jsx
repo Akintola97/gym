@@ -1,4 +1,5 @@
 import React from 'react'
+import Gallery from '../Components/Gallery'
 // import squat_facility_female from '../Components/assets/squat-facility-female.jpeg'
 // import loading_plates from '../Components/assets/loading-plates-facility.jpeg'
 // import mono_squat from '../Components/assets/mono-squat-facility.jpeg'
@@ -15,15 +16,17 @@ import React from 'react'
 // import strongman_stone from '../Components/assets/strongman-stone.jpeg'
 // import lbs_plates from '../Components/assets/lbs_plates.jpeg'
 
-import Gallery from '../Components/Gallery'
 
-const Facility = ({img, id}) => {
+const Facility = ({data}) => {
+
+  // console.log(data)
+
   return (
     <>
     <div className='text-black w-full h-full bg-gray-200'>
       <h1 className='uppercase text-center font-bold text-[6vmin] md:text-[5vmin] pt-4'>Surge to new levels Facility</h1>
       <p className='text-center text-[3.4vmin] md:text-[2.2vmin] p-3'>With over 12,000 square feet; Surge to New Levels boasts one of the largest spaces for powerlifting, strongman, and boxing in the entire Chicagoland area! Outfitted with all competition grade equipment, you will find absolutely everything you need for your sport at our gym! Best of all we have one of the largest and friendliest communities around! </p>
-      <div className='text-center w-full h-full bg-gray-200 flex flex-wrap justify-center items-center'>
+     
        {/* <img className='w-[32vw] p-2' src={squat_facility_female} />
        <img className='w-[32vw] p-2' src={loading_plates} /> 
        <img className='w-[32vw] p-2' src={mono_squat} />
@@ -39,9 +42,9 @@ const Facility = ({img, id}) => {
        <img className='w-[32vw] p-2' src={dumbbell_row} />
        <img className='w-[32vw] p-2' src={strongman_stone} />
        <img className='w-[32vw] p-2' src={lbs_plates} /> */}
-    <Gallery img = {img} id={id} />
-
-      </div>
+      {/* {data.map((item,index) => <img src={item.imgSrc} index = {index} />)} */}
+      <Gallery />
+      
 </div>
       <div className='w-full h-full bg-gray-200'>
         <div>
@@ -119,52 +122,38 @@ const Facility = ({img, id}) => {
           </li>
         </ul>
         <ul>
-        <h3 className='p-1 pb-2 font-bold'>Strength Equipment and Weights</h3>
-          <li>
-            <p>Kabuki Strength Boomstick</p>
-            <p>Elite FTS Bands Full Set (2)</p>
-            <p>Black Widow 5/8" Chains (6)</p>
-            <p>TRX Suspension System</p>
-            <p>Rogue Fitness Dip Station</p>
-            <p>Rogue Fitness Landmine</p>
-            <p>DC Blocks (8)</p>
-            <p>Deadlift Jack (3)</p>
-            <p>Chalk Bowl and Chalk (2)</p>
-            <p>Ammonia</p>
-            <p>Rumble Roller</p>
-            <p>Tiger Tail Roller</p>
-            <p>Acumobility Level 2 Ball (2)</p>
-            <p>Slingshot Hip Circle</p>
-            <p>Slingshot Mad Boar</p>
-            <p>Slingshot Knee Wraps</p>
-            <p>Slingshot Wrist Wraps</p>
-          </li>
-        </ul>
-        <ul>
-        <h3 className='p-1 pb-2 font-bold'>Accessories, Mobility, and Misc</h3>
-          <li>
-            <p>Kabuki Strength Boomstick</p>
-            <p>Elite FTS Bands Full Set (2)</p>
-            <p>Black Widow 5/8" Chains (6)</p>
-            <p>TRX Suspension System</p>
-            <p>Rogue Fitness Dip Station</p>
-            <p>Rogue Fitness Landmine</p>
-            <p>DC Blocks (8)</p>
-            <p>Deadlift Jack (3)</p>
-            <p>Chalk Bowl and Chalk (2)</p>
-            <p>Ammonia</p>
-            <p>Rumble Roller</p>
-            <p>Tiger Tail Roller</p>
-            <p>Acumobility Level 2 Ball (2)</p>
-            <p>Slingshot Hip Circle</p>
-            <p>Slingshot Mad Boar</p>
-            <p>Slingshot Knee Wraps</p>
-            <p>Slingshot Wrist Wraps</p>
+        <h3 className='p-1 pb-2 font-bold'>Boxing</h3>
+        <li>
+          <p>22X22FT Professional Boxing Ring</p>
+          <p>Ringside 100LB Heavy Bags (2)</p>
+          <p>Rival 200LB Heavy Bag (1)</p>
+          <p>Cleto Reyes Wrecking Ball (1)</p>
+          <p>Aqua Bag 200LBS (1)</p>
+          <p>Title Cobra Reflex Bag (1)</p>
+          <p>Title Reflex Bar (1)</p>
+          <p>Speed Bag (1)</p>
+          <p>Double End Bag (1)</p>
+
           </li>
         </ul>
         <ul>
         <h3 className='p-1 pb-2 font-bold'>Machines</h3>
-          <li>
+        <li>
+           <p>Precor Icarian 8 Multi-Stack Cable Station</p>
+           <p>Rogue Fitness Rhino Belt Squat Machine</p>
+           <p>Reverse Hyper </p>
+           <p>Seal Row Machine</p>
+           <p>Rogue Fitness Glute Ham Raise</p>
+           <p>Legend Fitness Leg Press</p>
+           <p>Elite FTS Leg Ext. Leg Curl</p>
+           <p>Sissy Squat Machine</p>
+          </li>
+        </ul>
+        </div>
+        <div className='flex w-full h-full flex-wrap justify-center text-center'>
+        <ul>
+        <h3 className='p-1 pb-2 font-bold'>Accessories, Mobility, and Misc.</h3>
+        <li>
             <p>Kabuki Strength Boomstick</p>
             <p>Elite FTS Bands Full Set (2)</p>
             <p>Black Widow 5/8" Chains (6)</p>
@@ -184,8 +173,35 @@ const Facility = ({img, id}) => {
             <p>Slingshot Wrist Wraps</p>
           </li>
         </ul>
-      
-      </div>
+        <ul>
+        <h3 className='p-1 pb-2 font-bold'>Cardio and Conditioning Equipment</h3>
+        <li>
+        <p>Life Fitness Treadmill</p>
+        <p>Step Mill Stairmaster</p>
+        <p>Assault Air Bike</p>
+        <p>Concept 2 Rower</p>
+        <p>60ft of Athletic Turf</p>
+        <p>Butcher Prowler 75LBS</p>
+        <p>Fat Boy Sled 38LBS</p>
+        <p>Plyo Boxes</p>
+        <p>Battle Ropes</p>
+        <p>Agility Cones</p>
+          </li>
+        </ul>
+        <ul>
+        <h3 className='p-1 pb-2 font-bold'>Strength Equipment and Weights</h3>
+        <li>
+        <p>IPF Certified Kilo Plates (3 Full Sets)</p>
+            <p>Ivanko Competition Collars </p>
+            <p>Ivanko Pro Style Dumbbells</p>
+            <p>Cast Iron Standard Plates</p>
+            <p>Rogue Fitness Kettlebell Set</p>
+            <p>Rogue Fitness Bumper Plates</p>
+          </li>
+        </ul>
+        </div>
+        <div className='flex w-full h-full flex-wrap justify-evenly text-center'>
+        </div>
       </div>
       
       </>

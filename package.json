@@ -5,6 +5,10 @@
   "dependencies": {
     "@emotion/react": "^11.10.5",
     "@emotion/styled": "^11.10.5",
+    "@fortawesome/fontawesome-svg-core": "^6.2.1",
+    "@fortawesome/free-regular-svg-icons": "^6.2.1",
+    "@fortawesome/free-solid-svg-icons": "^6.2.1",
+    "@fortawesome/react-fontawesome": "^0.2.0",
     "@mui/icons-material": "^5.10.15",
     "@mui/material": "^5.10.15",
     "@mui/styled-engine-sc": "^5.10.14",
@@ -20,7 +24,8 @@
     "react-router-dom": "^6.4.3",
     "react-scripts": "5.0.1",
     "styled-components": "^5.3.6",
-    "web-vitals": "^2.1.4"
+    "web-vitals": "^2.1.4",
+    "yet-another-react-lightbox": "^2.2.2"
   },
   "scripts": {
     "start": "react-scripts start",

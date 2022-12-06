@@ -11,6 +11,7 @@ import Cart from './pages/Cart'
 import Powerlifting from './pages/Powerlifting';
 import Strongman from './pages/Strongman';
 import Expectations from './pages/Expectations';
+import Footer from './pages/Footer';
 
 
 
@@ -20,7 +21,7 @@ function App() {
 <BrowserRouter>
       <Navigation />
       <Routes>
-        <Route path = '/Home' element={<Home/>}></Route>
+        <Route path = '/' element={<Home/>}></Route>
         <Route path = '/Team' element={<Team/>}></Route>
         <Route path = '/Facility' element={<Facility/>}></Route>
         <Route path = '/Memberships' element={<Memberships/>}></Route>
@@ -31,11 +32,10 @@ function App() {
         <Route path = '/powerlifting' element={<Powerlifting/>}></Route>
         <Route path = '/strongman' element={<Strongman/>}></Route>
         <Route path = '/expectations' element={<Expectations/>}></Route>
-        
     </Routes>
 
       </BrowserRouter>
-     
+     <Footer />
     </div>
   );
 

@@ -36,7 +36,7 @@ const Expectations = () => {
         <h1 className='text-center font-bold text-[4vmin] p-5 uppercase'>Powerlifting Etiquette</h1>
         <div className='flex w-full h-full flex-col'>
         <div className='w-full h-full'>
-          <img className='w-full' src={powerlifting_etiquette} />
+          <img className='w-full' src={powerlifting_etiquette} alt='squatting'/>
         </div>
         <div className='w-full h-full text-center pb-2 pt-4 flex flex-col'>
           <div>  
@@ -122,7 +122,7 @@ const Expectations = () => {
         <h1 className='text-center font-bold text-[4vmin] p-5 uppercase'>Strongman Etiquette</h1>
         <div className='flex w-full h-full flex-col'>
         <div className='w-full h-full'>
-          <img className='w-full' src={strongman_etiquette} />
+          <img className='w-full' src={strongman_etiquette} alt='strongman' />
         </div>
         <div className='w-full h-full text-center pb-2 pt-4 flex flex-col md:flex-row'>
           <div>
@@ -172,7 +172,7 @@ const Expectations = () => {
         <h1 className='text-center font-bold text-[4vmin] p-5 uppercase'>Boxing Etiquette</h1>
         <div className='flex w-full h-full flex-col'>
         <div className='w-full h-full'>
-          <img className='w-full' src={boxing_etiquette} />
+          <img className='w-full' src={boxing_etiquette} alt='boxing' />
         </div>
         <div className='w-full h-full text-center pb-2 pt-4 flex'>
           <div>

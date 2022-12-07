@@ -14,6 +14,9 @@ import yoke_walk from '../Components/assets/yoke-walk-strongman.jpeg'
 import dumbbell_row from '../Components/assets/dumbbell-row.jpeg'
 import strongman_stone from '../Components/assets/strongman-stone.jpeg'
 import lbs_plates from '../Components/assets/lbs_plates.jpeg'
+import { useState } from 'react'
+import './Gallery.css'
+
 
 const Gallery = () => {
 
@@ -79,19 +82,28 @@ const Gallery = () => {
             imgSrc: lbs_plates,
         }
     ]
+    const [model, setModel] = useState(false);
+    const [tempimgSrc, setTempImgSrc] = useState('');
+    const getImg = (imgSrc) =>{
+        setTempImgSrc(imgSrc);
+        setModel(true);
+        // console.log(imgSrc)
+    }
 
-    console.log(data)
 
   return (
     <>
-  
+  <div className={model ? "model open" : "model"} onClick={()=>setModel(false)}>
+    <img src = {tempimgSrc} alt='image_model' />
+  </div>
+
+
     <div className='w-full h-full flex flex-wrap justify-center'>
     {data.map((item, index)=>{
         return (
             <>
-    
-            <div className=''>
-            <div key={index}>
+            <div>
+            <div key={index} onClick={()=>getImg(item.imgSrc)}>
              <img className='w-[32vw] p-2'src={item.imgSrc} alt='facility_images'/>
             </div>
             </div>

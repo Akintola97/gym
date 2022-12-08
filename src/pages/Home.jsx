@@ -21,9 +21,9 @@ const Home = () => {
       <div>  
       <h1 className='text-white md:bg-black text-center uppercase font-bold text-[5vmin]'>Surge to New Levels</h1>
       <div className='flex justify-between  text-center gap-3'>
- <Link to ='/powerlifting' className='no-underline'><h4 className='text-white font-bold text-[3vmin] bg-red-600 hover:bg-green-500 rounded-lg p-2 ease-in-out duration-200 uppercase'>Powerlifing</h4></Link> 
-  <Link to ='/strongman' className='no-underline'><h4 className='text-white font-bold text-[3vmin] bg-red-600 hover:bg-green-500 rounded-lg p-2 ease-in-out duration-200 uppercase'>Strongman</h4></Link>
-  <Link to ='/boxing' className='no-underline'><h4 className='text-white font-bold text-[3vmin] bg-red-600 hover:bg-green-500 rounded-lg p-2 ease-in-out duration-200 uppercase'>Boxing</h4></Link>
+ <h4 className='text-white font-bold text-[3vmin] bg-red-600 rounded-lg p-2 ease-in-out duration-200 uppercase'>Powerlifing</h4>
+  <h4 className='text-white font-bold text-[3vmin] bg-red-600 rounded-lg p-2 ease-in-out duration-200 uppercase'>Strongman</h4>
+  <h4 className='text-white font-bold text-[3vmin] bg-red-600 rounded-lg p-2 ease-in-out duration-200 uppercase'>Boxing</h4>
   </div>
   </div>
     </div>

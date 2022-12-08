@@ -66,7 +66,8 @@ const Home = () => {
           Some quick example text to build on the card title and make up the
           bulk of the card's content.
         </Card.Text>
-        <Button variant="secondary">LEARN MORE</Button>
+        <Button variant="secondary"><a className='text-white no-underline uppercase' href='tel:630-335-1748'>
+  Speak to Surge</a></Button>
       </Card.Body>
       </Link>
     </Card>
@@ -76,10 +77,10 @@ const Home = () => {
       <Card.Body>
         <h1 className='text-[3vmin] font-bold'>BOXING</h1>
         <Card.Text className='text-[2.5vmin]'>
-          Some quick example text to build on the card title and make up the
-          bulk of the card's content.
+        All levels are welcome to join! Attendees are expected to bring their own gloves and hand wraps. First class is free!
         </Card.Text>
-        <Button variant="secondary">LEARN MORE</Button>
+        <Button variant="secondary"><a className='text-white no-underline uppercase' href='tel:630-335-1748'>
+  Speak to Surge</a></Button>
       </Card.Body>
       </Link>
     </Card>
@@ -92,7 +93,8 @@ const Home = () => {
           Some quick example text to build on the card title and make up the
           bulk of the card's content.
         </Card.Text>
-        <Button variant="secondary">LEARN MORE</Button>
+        <Button variant="secondary"><a className='text-white no-underline uppercase' href='tel:630-335-1748'>
+  Speak to Surge</a></Button>
       </Card.Body>
       </Link>
     </Card>

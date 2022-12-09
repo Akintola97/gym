@@ -151,7 +151,7 @@ const Facility = ({data}) => {
           </li>
         </ul>
         </div>
-        <div className='flex w-full h-full flex-wrap justify-center text-center'>
+        <div className='flex w-full h-full flex-wrap justify-center text-center pb-10'>
         <ul>
         <h3 className='p-1 pb-2 font-bold'>Accessories, Mobility, and Misc.</h3>
         <li>
@@ -190,7 +190,7 @@ const Facility = ({data}) => {
           </li>
         </ul>
         <ul>
-        <h3 className='p-1 pb-2 font-bold'>Strength Equipment and Weights</h3>
+        <h3 className='p-1 font-bold'>Strength Equipment and Weights</h3>
         <li>
         <p>IPF Certified Kilo Plates (3 Full Sets)</p>
             <p>Ivanko Competition Collars </p>
@@ -200,8 +200,6 @@ const Facility = ({data}) => {
             <p>Rogue Fitness Bumper Plates</p>
           </li>
         </ul>
-        </div>
-        <div className='flex w-full h-full flex-wrap justify-evenly text-center'>
         </div>
       </div>
       </>

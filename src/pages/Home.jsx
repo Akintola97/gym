@@ -27,11 +27,11 @@ const Home = () => {
   </div>
     </div>
 </div>
-<div className='flex justify-center items-center h-[100vh] w-full bg-black'>
+<div className='flex justify-center items-center h-full pt-10 w-full bg-black'>
 <div>
   <img className = 'mx-auto pb-5' src={logo} alt='logo'/>
   <h5 className='text-white text-center font-bold uppercase text-[3.5vmin] pb-10'>Surge is chicago's powerlifting destination</h5>
-  <p className='upperclass text-center text-white uppercase text-[3vmin] pb-5'>Boasting over 1,200 square feet, we have one of the largest facilites in the nation, while offering competition grade, Strongman and boxing equipment.</p>
+  <p className='upperclass text-center text-white uppercase text-[3vmin] pb-3'>Boasting over 1,200 square feet, we have one of the largest facilites in the nation <br></br> while offering competition grade, Strongman and boxing equipment.</p>
   <p className='text-center uppercase text-white text-[3vmin]'>"STRENGTH DOES NOT DISCRIMINATE"</p>
   <div className='flex w-full h-full items-center justify-center pt-10'>
     <Link to ='/memberships' className='no-underline'><h4 className='text-white font-bold text-[3vmin] bg-green-600 hover:bg-red-500 rounded-lg p-3 ease-in-out duration-200 uppercase'>BECOME A MEMBER</h4></Link>
@@ -54,9 +54,9 @@ const Home = () => {
 </div>
 </div>
 
-<div className='h-[100] w-full bg-white'>
+<div className='h-[100] w-full bg-white pb-10'>
   <div className='h-full w-full flex text-center items-center md:flex-row flex-col'>
-  <Card style={{border:'none', padding:'3rem', background:'white' }}>
+  <Card style={{border:'none', padding:'1vmin', background:'white' }}>
   <Link className='no-underline text-black hover:scale-110 ease-in-out duration-300' to = '/coaching'>
       <Card.Img variant="top" src={coaching} />
       <Card.Body>
@@ -71,7 +71,7 @@ const Home = () => {
       </Card.Body>
       </Link>
     </Card>
-  <Card style={{border:'none', padding:'3rem', background:'white' }}>
+  <Card style={{border:'none', padding:'1vmin', background:'white' }}>
  <Link className='no-underline text-black hover:scale-110 ease-in-out duration-300' to = '/boxing'>
       <Card.Img variant="top" src={boxing} />
       <Card.Body>
@@ -84,7 +84,7 @@ const Home = () => {
       </Card.Body>
       </Link>
     </Card>
-  <Card style={{border:'none', padding:'3rem', background:'white'}}>
+  <Card style={{border:'none', padding:'1vmin', background:'white'}}>
     <Link className='no-underline text-black hover:scale-110 ease-in-out duration-300' to = '/memberships'>
       <Card.Img variant="top" src={passes} />
       <Card.Body>
@@ -99,13 +99,15 @@ const Home = () => {
     </Card>
 </div>
 </div>
+<div className='h-full w-full'>
 <div className='bg-black w-full h-[50vh]'>
 <Youtube />
     </div>
 <div className='w-full h-full'>
   <Team />
 </div>
-<div className='w-full h-[80vh] bg-white'>
+</div>
+<div className='w-full h-full bg-white'>
   <div className='h-full w-full flex items-center'>
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2969.889871168673!2d-88.10943498454199!3d41.89522547922083!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880e54c90035eecf%3A0x3b70dd5bead80c81!2sSurge%20To%20New%20Levels%20Gym!5e0!3m2!1sen!2sus!4v1669628192004!5m2!1sen!2sus" width="100%" height="100%" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
 title='Map-Gym'></iframe>

@@ -8,7 +8,7 @@ import { Link } from 'react-router-dom'
 const Memberships = () => {
   return (
     <>
-    <div className='bg-gray-200 md:h-[100vh] h-[100vh] w-full text-black flex text-center justify-center items-center'>
+    <div className='bg-gray-200 p-5 h-full w-full text-black flex text-center justify-center items-center'>
       <div> 
       <h1 className='uppercase text-[5vmin] md:text-[4vmin] font-bold'>Open Membership Information</h1>
       <h5 className='p-3 text-[3.5vmin] md:text-[3vmin]'>We are home to to all levels from beginner to world class athletes. All experience levels are welcome to join as long as they are genuinely interested in being part of our community.</h5>
@@ -32,9 +32,9 @@ const Memberships = () => {
     <div className='h-full w-full bg-black p-10'>  
         <img className='w-full' src={gym_discount} alt='membership-promo'/> 
     </div>
-    <div className='h-full w-full bg-gray-200 text-black'>
-      <h1 className='font-bold p-5 text-center'>FAQ's</h1>
-      <div className='h-full w-full p-2 flex justify-center'>
+    <div className='h-full w-full bg-gray-200 text-black pb-10'>
+      <h1 className='font-bold p-5 text-center text-[5vmin] md:text-[6vmin] '>FAQ's</h1>
+      <div className='h-full w-full text-center flex '>
         <ul> 
           <li>
         <h6 className='font-bold'>Do I have to be a powerlifter, strongman, boxer to join?</h6><span>Although we primarily serve competitive powerlifting, strongman, and boxing athletes; you do not have to compete to be a part of the gym! We welcome all levels from beginner to world class lifters!</span>

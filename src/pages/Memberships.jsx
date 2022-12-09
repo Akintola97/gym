@@ -33,7 +33,7 @@ const Memberships = () => {
         <img className='w-full' src={gym_discount} alt='membership-promo'/> 
     </div>
     <div className='h-full w-full bg-gray-200 text-black'>
-      <h1 className='uppercase font-bold p-5 text-center'>FAQs</h1>
+      <h1 className='font-bold p-5 text-center'>FAQ's</h1>
       <div className='h-full w-full p-2 flex justify-center'>
         <ul> 
           <li>

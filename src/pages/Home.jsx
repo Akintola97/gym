@@ -62,12 +62,13 @@ const Home = () => {
       <Card.Img variant="top" src={coaching} />
       <Card.Body>
         <h1 className='text-[3vmin] font-bold'>COACHING</h1>
-        <Card.Text className='text-[2.5vmin]'>
-          Some quick example text to build on the card title and make up the
-          bulk of the card's content.
+        <Card.Text className='text-[2.5vmin] text-center'>
+        Recommended for those who need technical attention and a structured plan or wants to take their lifting to the next level... Available spots vary, give us a call to set up your time with a coach!
         </Card.Text>
-        <Button variant="secondary"><a className='text-white no-underline uppercase' href='tel:630-335-1748'>
-  Speak to Surge</a></Button>
+        <div>
+        <button className='bg-red-500 hover:bg-black rounded-lg p-2'><a className='text-white no-underline uppercase font-bold' href='tel:630-335-1748'>
+  Speak to Surge</a></button>
+  </div>
       </Card.Body>
       </Link>
     </Card>
@@ -76,11 +77,11 @@ const Home = () => {
       <Card.Img variant="top" src={boxing} />
       <Card.Body>
         <h1 className='text-[3vmin] font-bold'>BOXING</h1>
-        <Card.Text className='text-[2.5vmin]'>
-        All levels are welcome to join! Attendees are expected to bring their own gloves and hand wraps. First class is free!
+        <Card.Text className='text-[2.5vmin] text-center'>
+        From beginners who want to push themselves in a fun and engaging way as well as those who want to compete. Attendees are to bring their own gloves and hand wraps. First class free! 
         </Card.Text>
-        <Button variant="secondary"><a className='text-white no-underline uppercase' href='tel:630-335-1748'>
-  Speak to Surge</a></Button>
+        <button className='bg-red-500 hover:bg-black rounded-lg p-2'><a className='text-white no-underline uppercase font-bold' href='tel:630-335-1748'>
+  Speak to Surge</a></button>
       </Card.Body>
       </Link>
     </Card>
@@ -89,12 +90,11 @@ const Home = () => {
       <Card.Img variant="top" src={passes} />
       <Card.Body>
         <h1 className='text-[3vmin] font-bold'>GUEST PASS</h1>
-        <Card.Text className='text-[2.5vmin]'>
-          Some quick example text to build on the card title and make up the
-          bulk of the card's content.
+        <Card.Text className='text-[2.5vmin] text-center'>
+        Guest pass access is available remotely from 9AM to 9PM by appointment only. To schedule your visit please call/text Sergio or gym manager Amanda with your info and reason for visiting. 
         </Card.Text>
-        <Button variant="secondary"><a className='text-white no-underline uppercase' href='tel:630-335-1748'>
-  Speak to Surge</a></Button>
+        <button className='bg-red-500 hover:bg-black rounded-lg p-2'><a className='text-white no-underline uppercase font-bold' href='tel:630-335-1748'>
+  Speak to Surge</a></button>
       </Card.Body>
       </Link>
     </Card>

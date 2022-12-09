@@ -107,7 +107,7 @@ const Home = () => {
   <Team />
 </div>
 </div>
-<div className='w-full h-full bg-white'>
+<div className='w-full md:h-[50vmin] h-[80vmin] bg-white'>
   <div className='h-full w-full flex items-center'>
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2969.889871168673!2d-88.10943498454199!3d41.89522547922083!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880e54c90035eecf%3A0x3b70dd5bead80c81!2sSurge%20To%20New%20Levels%20Gym!5e0!3m2!1sen!2sus!4v1669628192004!5m2!1sen!2sus" width="100%" height="100%" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
 title='Map-Gym'></iframe>

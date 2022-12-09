@@ -57,14 +57,14 @@ const Home = () => {
 <div className='h-[100] w-full bg-white pb-10'>
   <div className='h-full w-full flex text-center items-center md:flex-row flex-col'>
   <Card style={{border:'none', padding:'1vmin', background:'white' }}>
-  <Link className='no-underline text-black hover:scale-110 ease-in-out duration-300' to = '/coaching'>
+  <Link className='no-underline text-black' to = '/coaching'>
       <Card.Img variant="top" src={coaching} />
       <Card.Body>
         <h1 className='text-[3vmin] font-bold'>COACHING</h1>
         <Card.Text className='text-[2.5vmin] text-center'>
-        Recommended for those who need technical attention and a structured plan or wants to take their lifting to the next level... Available spots vary, give us a call to set up your time with a coach!
+        Intended for those who need technical attention and a structured plan or wants to take their lifting to the next level... Available spots vary, give us a call to set up your time with a coach!
         </Card.Text>
-        <div>
+        <div className='pb-5'>
         <button className='bg-red-500 hover:bg-black rounded-lg p-2'><a className='text-white no-underline uppercase font-bold' href='tel:630-335-1748'>
   Speak to Surge</a></button>
   </div>
@@ -72,28 +72,32 @@ const Home = () => {
       </Link>
     </Card>
   <Card style={{border:'none', padding:'1vmin', background:'white' }}>
- <Link className='no-underline text-black hover:scale-110 ease-in-out duration-300' to = '/boxing'>
+ <Link className='no-underline text-black' to = '/boxing'>
       <Card.Img variant="top" src={boxing} />
       <Card.Body>
         <h1 className='text-[3vmin] font-bold'>BOXING</h1>
         <Card.Text className='text-[2.5vmin] text-center'>
         From beginners who want to push themselves in a fun and engaging way as well as those who want to compete. Attendees are to bring their own gloves and hand wraps. First class free! 
         </Card.Text>
+        <div className='pb-5'>
         <button className='bg-red-500 hover:bg-black rounded-lg p-2'><a className='text-white no-underline uppercase font-bold' href='tel:630-335-1748'>
   Speak to Surge</a></button>
+  </div>
       </Card.Body>
       </Link>
     </Card>
   <Card style={{border:'none', padding:'1vmin', background:'white'}}>
-    <Link className='no-underline text-black hover:scale-110 ease-in-out duration-300' to = '/memberships'>
+    <Link className='no-underline text-black' to = '/memberships'>
       <Card.Img variant="top" src={passes} />
       <Card.Body>
         <h1 className='text-[3vmin] font-bold'>GUEST PASS</h1>
         <Card.Text className='text-[2.5vmin] text-center'>
         Guest pass access is available remotely from 9AM to 9PM by appointment only. To schedule your visit please call/text Sergio or gym manager Amanda with your info and reason for visiting. 
         </Card.Text>
+        <div className='pb-5'>
         <button className='bg-red-500 hover:bg-black rounded-lg p-2'><a className='text-white no-underline uppercase font-bold' href='tel:630-335-1748'>
   Speak to Surge</a></button>
+  </div>
       </Card.Body>
       </Link>
     </Card>

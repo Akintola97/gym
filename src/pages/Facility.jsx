@@ -27,23 +27,6 @@ const Facility = ({data}) => {
     <div className='text-black w-full h-full bg-gray-200'>
       <h1 className='uppercase text-center font-bold text-[4vmin] pt-4'>Surge to new levels Facility</h1>
       <p className='text-center text-[2.5vmin] p-3'>With over 12,000 square feet; Surge to New Levels boasts one of the largest spaces for powerlifting, strongman, and boxing in the entire Chicagoland area! Outfitted with all competition grade equipment, you will find absolutely everything you need for your sport at our gym! Best of all we have one of the largest and friendliest communities around! </p>
-     
-       {/* <img className='w-[32vw] p-2' src={squat_facility_female} />
-       <img className='w-[32vw] p-2' src={loading_plates} /> 
-       <img className='w-[32vw] p-2' src={mono_squat} />
-       <img className='w-[32vw] p-2' src={coaching_facility} />
-       <img className='w-[32vw] p-2' src={back_squat} />
-       <img className='w-[32vw] p-2' src={strongman_facility} />
-       <img className='w-[32vw] p-2' src={woman_deadlift} />
-       <img className='w-[32vw] p-2' src={youth_boxer} />
-       <img className='w-[32vw] p-2' src={woman_deadlift_setup} />
-       <img className='w-[32vw] p-2' src={stone_pit} />
-       <img className='w-[32vw] p-2' src={bench_arch} />
-       <img className='w-[32vw] p-2' src={yoke_walk} />
-       <img className='w-[32vw] p-2' src={dumbbell_row} />
-       <img className='w-[32vw] p-2' src={strongman_stone} />
-       <img className='w-[32vw] p-2' src={lbs_plates} /> */}
-      {/* {data.map((item,index) => <img src={item.imgSrc} index = {index} />)} */}
       <Gallery />
       
 </div>
@@ -187,7 +170,6 @@ const Facility = ({data}) => {
         <p className='text-[2.3vmin]'>Rogue Fitness Bumper Plates</p>
             </div>
         </div>
-        
       </div>
       </>
   )

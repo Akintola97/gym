@@ -48,9 +48,9 @@ const Team = () => {
     </Card>
         </div>
         </div>
-        <Carousel.Caption>
+        {/* <Carousel.Caption>
           <h3>MEET THE TEAM</h3>
-        </Carousel.Caption>
+        </Carousel.Caption> */}
       </Carousel.Item>
       <Carousel.Item>
       <div className='h-[155vh] md:h-[70vh] w-full bg-black'>
@@ -84,9 +84,9 @@ const Team = () => {
     </Card>
         </div>
         </div>
-        <Carousel.Caption>
+        {/* <Carousel.Caption>
           <h3>MEET THE TEAM</h3>
-        </Carousel.Caption>
+        </Carousel.Caption> */}
       </Carousel.Item>
       <Carousel.Item>
       <div className='h-[155vh] md:h-[70vh] w-full bg-black'>
@@ -120,9 +120,9 @@ const Team = () => {
     </Card>
         </div>
         </div>
-        <Carousel.Caption>
+        {/* <Carousel.Caption>
           <h3>MEET THE TEAM</h3>
-        </Carousel.Caption>
+        </Carousel.Caption> */}
       </Carousel.Item>
     </Carousel>
     </>

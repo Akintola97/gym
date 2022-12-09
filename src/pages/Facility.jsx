@@ -1,6 +1,6 @@
 import React from 'react'
 import Gallery from '../Components/Gallery'
-import Footer from './Footer'
+
 // import squat_facility_female from '../Components/assets/squat-facility-female.jpeg'
 // import loading_plates from '../Components/assets/loading-plates-facility.jpeg'
 // import mono_squat from '../Components/assets/mono-squat-facility.jpeg'

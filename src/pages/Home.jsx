@@ -10,8 +10,7 @@ import passes from '../Components/assets/guest-pass.jpeg'
 import Team from './Team'
 import {AiFillTwitterCircle, AiFillFacebook, AiFillYoutube, AiFillMail} from 'react-icons/ai'
 import {BsPhone} from 'react-icons/bs'
-import Button from 'react-bootstrap/Button';
-import Footer from './Footer';
+
 
 const Home = () => {
  return (

@@ -1,9 +1,9 @@
 import React from 'react'
 
-const Strongman = () => {
+const strongman = () => {
   return (
     <div>Strongman</div>
   )
 }
 
-export default Strongman
+export default strongman

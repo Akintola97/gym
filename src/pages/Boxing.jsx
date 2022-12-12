@@ -3,7 +3,7 @@ import BoxingYoutube from '../Components/BoxingYoutube'
 import boxing_pricing from '../Components/assets/boxing_pricing.jpeg'
 import boxing_schedule from '../Components/assets/boxing_schedule.jpeg'
 
-const Boxing = () => {
+const boxing = () => {
   return (
     <>
     <div className='w-full h-full bg-black md:p-12'>
@@ -28,4 +28,4 @@ const Boxing = () => {
   )
 }
 
-export default Boxing
+export default boxing

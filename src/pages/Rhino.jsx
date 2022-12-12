@@ -1,9 +1,9 @@
 import React from 'react'
 
-const Rhino = () => {
+const rhino = () => {
   return (
     <div>Rhino</div>
   )
 }
 
-export default Rhino
+export default rhino

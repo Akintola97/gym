@@ -4,8 +4,8 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage:{
-        'mobile-facilitypicture': "url(''./Components/assets/hero-mobile.jpeg'')",
-        'facility-picture': "url(''./Components/assets/hero-image.jpeg'')"
+        'main-hero': "url('./Components/assets/new-hero.jpeg')",
+        'hero-mobile': "url('./Components/assets/guest-gym.jpeg')"
       }
     },
   },

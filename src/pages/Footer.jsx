@@ -1,7 +1,7 @@
 import React from 'react'
 
 
-const Footer = () => {
+const footer = () => {
   return (
     <>
     <div className='flex flex-row text-center w-full h-full bg-black/90 text-white'>
@@ -23,4 +23,4 @@ const Footer = () => {
   )
 }
 
-export default Footer
+export default footer

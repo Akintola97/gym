@@ -4,7 +4,7 @@ import powerlifting_etiquette from '../Components/assets/powerlifting-etiquette.
 import strongman_etiquette from '../Components/assets/strongman_etiquette.jpeg'
 import boxing_etiquette from '../Components/assets/boxing-etiquette.jpeg'
 
-const Expectations = () => {
+const expectations = () => {
   return (
     <>
     <div className='w-full h-full bg-gray-100'>
@@ -187,4 +187,4 @@ const Expectations = () => {
   )
 }
 
-export default Expectations
+export default expectations

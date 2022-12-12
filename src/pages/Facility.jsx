@@ -1,26 +1,9 @@
 import React from 'react'
 import Gallery from '../Components/Gallery'
 
-// import squat_facility_female from '../Components/assets/squat-facility-female.jpeg'
-// import loading_plates from '../Components/assets/loading-plates-facility.jpeg'
-// import mono_squat from '../Components/assets/mono-squat-facility.jpeg'
-// import coaching_facility from '../Components/assets/coaching-facility.jpeg'
-// import back_squat from '../Components/assets/back-squat-facility.jpeg'
-// import strongman_facility from '../Components/assets/strongman_facility.jpeg'
-// import woman_deadlift from '../Components/assets/woman-deadlift.jpeg'
-// import youth_boxer from '../Components/assets/youth-boxer.jpeg'
-// import woman_deadlift_setup from '../Components/assets/woman-deadlift-setup.jpeg'
-// import stone_pit from '../Components/assets/stone-pit-strongman.jpeg'
-// import bench_arch from '../Components/assets/bench-arch.jpeg'
-// import yoke_walk from '../Components/assets/yoke-walk-strongman.jpeg'
-// import dumbbell_row from '../Components/assets/dumbbell-row.jpeg'
-// import strongman_stone from '../Components/assets/strongman-stone.jpeg'
-// import lbs_plates from '../Components/assets/lbs_plates.jpeg'
+const facility = () => {
 
 
-const Facility = ({data}) => {
-
-  // console.log(data)
 
   return (
     <>
@@ -175,4 +158,4 @@ const Facility = ({data}) => {
   )
 }
 
-export default Facility
+export default facility

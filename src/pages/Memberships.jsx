@@ -5,7 +5,7 @@ import year_membership from '../Components/assets/year-membership.jpeg'
 import gym_discount from '../Components/assets/discount-gym.jpeg'
 import { Link } from 'react-router-dom'
 
-const Memberships = () => {
+const memberships = () => {
   return (
     <>
     <div className='bg-gray-200 p-5 h-full w-full text-black flex text-center justify-center items-center'>
@@ -69,4 +69,4 @@ const Memberships = () => {
     )
 }
 
-export default Memberships
+export default memberships

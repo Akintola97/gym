@@ -1,6 +1,6 @@
 import Carousel from 'react-bootstrap/Carousel';
 import sponsorship from '../Components/assets/sponsorship.jpeg'
-function CarouselNav() {
+function carouselnav() {
   return (
     <Carousel>
       <Carousel.Item>
@@ -44,4 +44,4 @@ function CarouselNav() {
   );
 }
 
-export default CarouselNav;
+export default carouselnav;

@@ -1,4 +1,3 @@
-// import { Carousel } from 'bootstrap'
 import Youtube from '../Components/Youtube'
 import React from 'react'
 import { Link } from 'react-router-dom'
@@ -7,26 +6,30 @@ import Card from 'react-bootstrap/Card';
 import coaching from '../Components/assets/coaching-gym.jpeg'
 import boxing from '../Components/assets/boxing-gym.jpeg'
 import passes from '../Components/assets/guest-pass.jpeg'
-import Team from './Team'
+import Team from './team'
 import {AiFillTwitterCircle, AiFillFacebook, AiFillYoutube, AiFillMail} from 'react-icons/ai'
 import {BsPhone} from 'react-icons/bs'
 
 
-const Home = () => {
+const home = () => {
  return (
  <>
-   <div className = "md:bg-[url('./Components/assets/new-hero.jpeg')] md:bg-blend-darken md:bg-cover bg-[url('./Components/assets/guest-gym.jpeg')] bg-blend-darken bg-cover w-full h-[100vmin] bg-no-repeat object-contain">
-    <div className='flex w-full h-full items-center justify-center'>
-      <div>  
-      <h1 className='text-white md:bg-black text-center uppercase font-bold text-[5vmin]'>Surge to New Levels</h1>
-      <div className='flex justify-between  text-center gap-3'>
- <h4 className='text-white font-bold text-[3vmin] bg-red-600 rounded-lg p-2 ease-in-out duration-200 uppercase'>Powerlifting</h4>
-  <h4 className='text-white font-bold text-[3vmin] bg-red-600 rounded-lg p-2 ease-in-out duration-200 uppercase'>Strongman</h4>
-  <h4 className='text-white font-bold text-[3vmin] bg-red-600 rounded-lg p-2 ease-in-out duration-200 uppercase'>Boxing</h4>
-  </div>
+   <div className='relative w-full h-full'>
+    <div className='w-full h-[100vh]'>
+   <img className = "md:bg-main-hero brightness-50 bg-hero-mobile bg-cover w-full h-full" />
+    </div>
+    </div>
+    <div className='absolute top-0 left-0 w-full h-full flex justify-center items-center'>
+      <div className='container text-center'>
+      <h1 className='text-white text-center uppercase font-bold text-[5vmin]'>Surge to New Levels</h1>
+     <div className='flex justify-center'>
+ <h4 className='text-gray-300 font-bold text-[2.5vmin] p-2 ease-in-out duration-200 uppercase'>Powerlifting</h4>
+ <h4 className='text-gray-300 font-bold text-[2.5vmin] p-2 ease-in-out duration-200 uppercase'>Strongman</h4>
+ <h4 className='text-gray-300 font-bold text-[2.5vmin] p-2 ease-in-out duration-200 uppercase'>Boxing</h4>
   </div>
     </div>
-</div>
+    </div>
+
 <div className='flex justify-center items-center h-full pt-10 w-full bg-black'>
 <div>
   <img className = 'mx-auto pb-5' src={logo} alt='logo'/>
@@ -34,7 +37,7 @@ const Home = () => {
   <p className='upperclass text-center text-white uppercase text-[3vmin] pb-3'>Boasting over 1,200 square feet, we have one of the largest facilites in the nation <br></br> while offering competition grade, Strongman and boxing equipment.</p>
   <p className='text-center uppercase text-white text-[3vmin]'>"STRENGTH DOES NOT DISCRIMINATE"</p>
   <div className='flex w-full h-full items-center justify-center pt-10'>
-    <Link to ='/memberships' className='no-underline'><h4 className='text-white font-bold text-[3vmin] bg-green-600 hover:bg-red-500 rounded-lg p-3 ease-in-out duration-200 uppercase'>BECOME A MEMBER</h4></Link>
+    <Link to ='/memberships' className='no-underline'><h4 className='text-white font-bold text-[3vmin] bg-red-500 hover:bg-green-600 rounded-lg p-3 ease-in-out duration-200 uppercase'>BECOME A MEMBER</h4></Link>
     </div>
     <div className='w-full h-full text-white flex justify-center gap-5 p-5 md:text-[3vmin] text-[5vmin]'>
   <a className='text-blue-500' href='https://www.facebook.com/SurgeToNewLevels?ref=hl' target='_blank' rel="noopener noreferrer">
@@ -60,14 +63,10 @@ const Home = () => {
   <Link className='no-underline text-black' to = '/coaching'>
       <Card.Img variant="top" src={coaching} />
       <Card.Body>
-        <h1 className='text-[3vmin] font-bold'>COACHING</h1>
-        <Card.Text className='text-[2.5vmin] text-center'>
+        <h1 className='text-[2.8vmin] font-bold'>COACHING</h1>
+        <Card.Text className='text-[2vmin] text-center'>
         Intended for those who need technical attention and a structured plan or wants to take their lifting to the next level... Available spots vary, give us a call to set up your time with a coach!
         </Card.Text>
-        <div className='pb-5'>
-        <button className='bg-red-500 hover:bg-black rounded-lg p-2'><a className='text-white no-underline uppercase font-bold' href='tel:630-335-1748'>
-  Speak to Surge</a></button>
-  </div>
       </Card.Body>
       </Link>
     </Card>
@@ -75,14 +74,10 @@ const Home = () => {
  <Link className='no-underline text-black' to = '/boxing'>
       <Card.Img variant="top" src={boxing} />
       <Card.Body>
-        <h1 className='text-[3vmin] font-bold'>BOXING</h1>
-        <Card.Text className='text-[2.5vmin] text-center'>
+        <h1 className='text-[2.8vmin] font-bold'>BOXING</h1>
+        <Card.Text className='text-[2vmin] text-center'>
         From beginners who want to push themselves in a fun and engaging way as well as those who want to compete. Attendees are to bring their own gloves and hand wraps. First class free! 
         </Card.Text>
-        <div className='pb-5'>
-        <button className='bg-red-500 hover:bg-black rounded-lg p-2'><a className='text-white no-underline uppercase font-bold' href='tel:630-335-1748'>
-  Speak to Surge</a></button>
-  </div>
       </Card.Body>
       </Link>
     </Card>
@@ -90,18 +85,18 @@ const Home = () => {
     <Link className='no-underline text-black' to = '/memberships'>
       <Card.Img variant="top" src={passes} />
       <Card.Body>
-        <h1 className='text-[3vmin] font-bold'>GUEST PASS</h1>
-        <Card.Text className='text-[2.5vmin] text-center'>
+        <h1 className='text-[2.8vmin] font-bold'>GUEST PASS</h1>
+        <Card.Text className='text-[2vmin] text-center'>
         Guest pass access is available remotely from 9AM to 9PM by appointment only. To schedule your visit please call/text Sergio or gym manager Amanda with your info and reason for visiting. 
         </Card.Text>
-        <div className='pb-5'>
-        <button className='bg-red-500 hover:bg-black rounded-lg p-2'><a className='text-white no-underline uppercase font-bold' href='tel:630-335-1748'>
-  Speak to Surge</a></button>
-  </div>
       </Card.Body>
       </Link>
     </Card>
 </div>
+<div className='text-center pt-5'>
+        <button className='bg-red-500 hover:bg-green-600 rounded-lg p-2'><a className='text-white no-underline text-[3vmin] uppercase font-bold' href='tel:630-335-1748'>
+  Speak to Surge</a></button>
+  </div>
 </div>
 <div className='h-full w-full'>
 <div className='bg-black w-full h-[50vh]'>
@@ -120,4 +115,4 @@ title='Map-Gym'></iframe>
 </>
 )
 }
-export default Home
+export default home

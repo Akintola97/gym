@@ -1,9 +1,9 @@
 import React from 'react'
 
-const Powerlifting = () => {
+const powerlifting = () => {
   return (
     <div>Powerlifting</div>
   )
 }
 
-export default Powerlifting
+export default powerlifting

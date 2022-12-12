@@ -12,7 +12,7 @@ import gym_photographer from '../Components/assets/gym-photographer.jpeg'
 import events_photographer from '../Components/assets/events-photographer.jpeg'
 import Carousel from 'react-bootstrap/Carousel';
 
-const Team = () => {
+const team = () => {
   return (
     <>
 <Carousel fade>
@@ -129,4 +129,4 @@ const Team = () => {
   )
 }
 
-export default Team
+export default team

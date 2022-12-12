@@ -96,8 +96,6 @@ const home = () => {
 <div className='text-center pt-5'>
         <button className='bg-red-500 hover:bg-green-600 rounded-lg p-2'><a className='text-white no-underline text-[3vmin] uppercase font-bold' href='tel:630-335-1748'>
   Speak to Surge</a></button>
-
-  // import { Carousel } from 'bootstrap'
   </div>
 </div>
 <div className='h-full w-full'>

@@ -16,7 +16,7 @@ const home = () => {
  <>
    <div className='relative w-full h-full'>
     <div className='w-full h-[100vh]'>
-   <img className = "md:bg-main-hero brightness-50 bg-hero-mobile bg-cover w-full h-full" />
+   <img className = "md:bg-main-hero brightness-50 bg-hero-mobile bg-cover w-full h-full" alt='hero_background'/>
     </div>
     </div>
     <div className='absolute top-0 left-0 w-full h-full flex justify-center items-center'>
@@ -30,7 +30,7 @@ const home = () => {
     </div>
     </div>
 
-<div className='flex justify-center items-center h-full pt-10 w-full bg-black'>
+<div className='flex justify-center items-center w-full bg-black min-h-screen'>
 <div>
   <img className = 'mx-auto pb-5' src={logo} alt='logo'/>
   <h5 className='text-white text-center font-bold uppercase text-[3.5vmin] pb-10'>Surge is chicago's powerlifting destination</h5>
@@ -57,14 +57,14 @@ const home = () => {
 </div>
 </div>
 
-<div className='h-[100] w-full bg-white pb-10'>
-  <div className='h-full w-full flex text-center items-center md:flex-row flex-col'>
+<div className='min-h-screen w-full bg-white pt-10'>
+  <div className='h-full w-full flex text-center items-center md:flex-row flex-col justify-center'>
   <Card style={{border:'none', padding:'1vmin', background:'white' }}>
   <Link className='no-underline text-black' to = '/coaching'>
       <Card.Img variant="top" src={coaching} />
       <Card.Body>
-        <h1 className='text-[2.8vmin] font-bold'>COACHING</h1>
-        <Card.Text className='text-[2vmin] text-center'>
+        <h1 className='text-[3.0vmin] font-bold'>COACHING</h1>
+        <Card.Text className='text-[2.0vmin] text-center'>
         Intended for those who need technical attention and a structured plan or wants to take their lifting to the next level... Available spots vary, give us a call to set up your time with a coach!
         </Card.Text>
       </Card.Body>
@@ -74,8 +74,8 @@ const home = () => {
  <Link className='no-underline text-black' to = '/boxing'>
       <Card.Img variant="top" src={boxing} />
       <Card.Body>
-        <h1 className='text-[2.8vmin] font-bold'>BOXING</h1>
-        <Card.Text className='text-[2vmin] text-center'>
+        <h1 className='text-[3.0vmin] font-bold'>BOXING</h1>
+        <Card.Text className='text-[2.0vmin] text-center'>
         From beginners who want to push themselves in a fun and engaging way as well as those who want to compete. Attendees are to bring their own gloves and hand wraps. First class free! 
         </Card.Text>
       </Card.Body>
@@ -85,15 +85,15 @@ const home = () => {
     <Link className='no-underline text-black' to = '/memberships'>
       <Card.Img variant="top" src={passes} />
       <Card.Body>
-        <h1 className='text-[2.8vmin] font-bold'>GUEST PASS</h1>
-        <Card.Text className='text-[2vmin] text-center'>
+        <h1 className='text-[3.0vmin] font-bold'>GUEST PASS</h1>
+        <Card.Text className='text-[2.0vmin] text-center'>
         Guest pass access is available remotely from 9AM to 9PM by appointment only. To schedule your visit please call/text Sergio or gym manager Amanda with your info and reason for visiting. 
         </Card.Text>
       </Card.Body>
       </Link>
     </Card>
 </div>
-<div className='text-center pt-5'>
+<div className='text-center p-10'>
         <button className='bg-red-500 hover:bg-green-600 rounded-lg p-2'><a className='text-white no-underline text-[3vmin] uppercase font-bold' href='tel:630-335-1748'>
   Speak to Surge</a></button>
   </div>

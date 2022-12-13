@@ -16,7 +16,7 @@ const home = () => {
  <>
    <div className='relative w-full h-full'>
     <div className='w-full h-[100vh]'>
-   <img className = "md:bg-main-hero brightness-50 bg-hero-mobile bg-cover w-full h-full" alt='hero_background'/>
+   <img className = "md:bg-main-hero brightness-50 bg-hero-mobile bg-cover w-full h-full" alt=''/>
     </div>
     </div>
     <div className='absolute top-0 left-0 w-full h-full flex justify-center items-center'>

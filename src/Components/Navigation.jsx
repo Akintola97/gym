@@ -19,7 +19,7 @@ function Navigation() {
             {/* <Nav.Link><Link class = 'text-decoration-none text-white' to = '/coaching'><h5 className='hover:text-red-500 font-bold'>Coaching</h5></Link></Nav.Link> */}
             <Nav.Link eventKey="3"><Link class = 'text-decoration-none text-white' to = '/boxing'><h5 className='hover:text-red-500 font-bold'>Boxing</h5></Link></Nav.Link>
            {/* <Nav.Link eventKey="4"><Link class = 'text-decoration-none text-white' to = '/rhino'><h5 className='hover:text-red-500 font-bold'>Rhino's Revenge</h5></Link></Nav.Link> */}
-            <Nav.Link eventKey="5"><Link class = 'text-decoration-none text-white' to = '/cart'><h5 className='hover:text-red-500 font-bold'><AiOutlineShoppingCart/></h5></Link></Nav.Link>
+            {/* <Nav.Link eventKey="5"><Link class = 'text-decoration-none text-white' to = '/cart'><h5 className='hover:text-red-500 font-bold'><AiOutlineShoppingCart/></h5></Link></Nav.Link> */}
           </Nav>
           <Nav>
           </Nav>
